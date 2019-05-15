@@ -14,7 +14,7 @@ end
 
 def assign_rooms(speaker)
   rooms = []
-  binding.pry
+  #binding.pry
 
   counter = 1
 
