@@ -15,12 +15,12 @@ end
 def assign_rooms(speaker)
   rooms = []
   binding.pry
-  
-  room = 1
+
+  counter = 1
 
   speaker.each_with_index do |name, room|
     rooms << "Hello, #{name}! You'll be assigned to room #{room}!"
-    room += 1
+    counter += 1
   end
   rooms
 end
